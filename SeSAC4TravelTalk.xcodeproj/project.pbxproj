@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAC49AA72B5422BF00462250 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC49AA62B5422BF00462250 /* AppDelegate.swift */; };
+		FAC49AA92B5422BF00462250 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC49AA82B5422BF00462250 /* SceneDelegate.swift */; };
+		FAC49AAE2B5422BF00462250 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC49AAC2B5422BF00462250 /* Main.storyboard */; };
+		FAC49AB02B5422C000462250 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC49AAF2B5422C000462250 /* Assets.xcassets */; };
+		FAC49AB32B5422C000462250 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC49AB12B5422C000462250 /* LaunchScreen.storyboard */; };
+		FAC49ABF2B54237F00462250 /* ChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC49ABD2B54237F00462250 /* ChatListViewController.swift */; };
+		FAC49AC42B5424E700462250 /* ChattingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC49AC32B5424E700462250 /* ChattingData.swift */; };
+		FAC49AD32B54253600462250 /* ChatListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC49AD12B54253600462250 /* ChatListTableViewCell.swift */; };
+		FAC49AD42B54253600462250 /* ChatListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAC49AD22B54253600462250 /* ChatListTableViewCell.xib */; };
+		FAC49AD72B542D8100462250 /* UITableViewHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC49AD62B542D8100462250 /* UITableViewHandler.swift */; };
+		FAC49ADC2B543BBA00462250 /* MyChatBubbleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC49ADA2B543BBA00462250 /* MyChatBubbleTableViewCell.swift */; };
+		FAC49ADD2B543BBA00462250 /* MyChatBubbleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAC49ADB2B543BBA00462250 /* MyChatBubbleTableViewCell.xib */; };
+		FAC49AE02B543BCC00462250 /* OthersChatBubbleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC49ADE2B543BCC00462250 /* OthersChatBubbleTableViewCell.swift */; };
+		FAC49AE12B543BCC00462250 /* OthersChatBubbleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAC49ADF2B543BCC00462250 /* OthersChatBubbleTableViewCell.xib */; };
+		FAC49AE32B543C5C00462250 /* ChatRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC49AE22B543C5C00462250 /* ChatRoomViewController.swift */; };
+		FAC49AE92B5448BB00462250 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC49AE82B5448BB00462250 /* Util.swift */; };
+		FAC49AEB2B544BBF00462250 /* ConfigurableChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC49AEA2B544BBF00462250 /* ConfigurableChatCell.swift */; };
+		FAC49AEE2B54647300462250 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FAC49AED2B54647300462250 /* IQKeyboardManagerSwift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAC49AA32B5422BF00462250 /* SeSAC4TravelTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeSAC4TravelTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC49AA62B5422BF00462250 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAC49AA82B5422BF00462250 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FAC49AAD2B5422BF00462250 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAC49AAF2B5422C000462250 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAC49AB22B5422C000462250 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAC49AB42B5422C000462250 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC49ABD2B54237F00462250 /* ChatListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListViewController.swift; sourceTree = "<group>"; };
+		FAC49AC32B5424E700462250 /* ChattingData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChattingData.swift; sourceTree = "<group>"; };
+		FAC49AD12B54253600462250 /* ChatListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListTableViewCell.swift; sourceTree = "<group>"; };
+		FAC49AD22B54253600462250 /* ChatListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatListTableViewCell.xib; sourceTree = "<group>"; };
+		FAC49AD62B542D8100462250 /* UITableViewHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewHandler.swift; sourceTree = "<group>"; };
+		FAC49ADA2B543BBA00462250 /* MyChatBubbleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyChatBubbleTableViewCell.swift; sourceTree = "<group>"; };
+		FAC49ADB2B543BBA00462250 /* MyChatBubbleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyChatBubbleTableViewCell.xib; sourceTree = "<group>"; };
+		FAC49ADE2B543BCC00462250 /* OthersChatBubbleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OthersChatBubbleTableViewCell.swift; sourceTree = "<group>"; };
+		FAC49ADF2B543BCC00462250 /* OthersChatBubbleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OthersChatBubbleTableViewCell.xib; sourceTree = "<group>"; };
+		FAC49AE22B543C5C00462250 /* ChatRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomViewController.swift; sourceTree = "<group>"; };
+		FAC49AE82B5448BB00462250 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		FAC49AEA2B544BBF00462250 /* ConfigurableChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurableChatCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAC49AA02B5422BF00462250 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC49AEE2B54647300462250 /* IQKeyboardManagerSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAC49A9A2B5422BF00462250 = {
+			isa = PBXGroup;
+			children = (
+				FAC49AA52B5422BF00462250 /* SeSAC4TravelTalk */,
+				FAC49AA42B5422BF00462250 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAC49AA42B5422BF00462250 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAC49AA32B5422BF00462250 /* SeSAC4TravelTalk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAC49AA52B5422BF00462250 /* SeSAC4TravelTalk */ = {
+			isa = PBXGroup;
+			children = (
+				FAC49AE72B5448B300462250 /* Utils */,
+				FAC49AD52B542CA400462250 /* Protocol */,
+				FAC49AC22B5424A000462250 /* Model */,
+				FAC49ABA2B54231700462250 /* View */,
+				FAC49AC12B54249300462250 /* Controller */,
+				FAC49AA62B5422BF00462250 /* AppDelegate.swift */,
+				FAC49AA82B5422BF00462250 /* SceneDelegate.swift */,
+				FAC49AAC2B5422BF00462250 /* Main.storyboard */,
+				FAC49AAF2B5422C000462250 /* Assets.xcassets */,
+				FAC49AB12B5422C000462250 /* LaunchScreen.storyboard */,
+				FAC49AB42B5422C000462250 /* Info.plist */,
+			);
+			path = SeSAC4TravelTalk;
+			sourceTree = "<group>";
+		};
+		FAC49ABA2B54231700462250 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FAC49AD12B54253600462250 /* ChatListTableViewCell.swift */,
+				FAC49AD22B54253600462250 /* ChatListTableViewCell.xib */,
+				FAC49ADA2B543BBA00462250 /* MyChatBubbleTableViewCell.swift */,
+				FAC49ADB2B543BBA00462250 /* MyChatBubbleTableViewCell.xib */,
+				FAC49ADE2B543BCC00462250 /* OthersChatBubbleTableViewCell.swift */,
+				FAC49ADF2B543BCC00462250 /* OthersChatBubbleTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FAC49AC12B54249300462250 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FAC49ABD2B54237F00462250 /* ChatListViewController.swift */,
+				FAC49AE22B543C5C00462250 /* ChatRoomViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FAC49AC22B5424A000462250 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FAC49AC32B5424E700462250 /* ChattingData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FAC49AD52B542CA400462250 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				FAC49AD62B542D8100462250 /* UITableViewHandler.swift */,
+				FAC49AEA2B544BBF00462250 /* ConfigurableChatCell.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		FAC49AE72B5448B300462250 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FAC49AE82B5448BB00462250 /* Util.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAC49AA22B5422BF00462250 /* SeSAC4TravelTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC49AB72B5422C000462250 /* Build configuration list for PBXNativeTarget "SeSAC4TravelTalk" */;
+			buildPhases = (
+				FAC49A9F2B5422BF00462250 /* Sources */,
+				FAC49AA02B5422BF00462250 /* Frameworks */,
+				FAC49AA12B5422BF00462250 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeSAC4TravelTalk;
+			packageProductDependencies = (
+				FAC49AED2B54647300462250 /* IQKeyboardManagerSwift */,
+			);
+			productName = SeSAC4TravelTalk;
+			productReference = FAC49AA32B5422BF00462250 /* SeSAC4TravelTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAC49A9B2B5422BF00462250 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					FAC49AA22B5422BF00462250 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = FAC49A9E2B5422BF00462250 /* Build configuration list for PBXProject "SeSAC4TravelTalk" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAC49A9A2B5422BF00462250;
+			packageReferences = (
+				FAC49AEC2B54647300462250 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
+			productRefGroup = FAC49AA42B5422BF00462250 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAC49AA22B5422BF00462250 /* SeSAC4TravelTalk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAC49AA12B5422BF00462250 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC49AB32B5422C000462250 /* LaunchScreen.storyboard in Resources */,
+				FAC49AD42B54253600462250 /* ChatListTableViewCell.xib in Resources */,
+				FAC49AE12B543BCC00462250 /* OthersChatBubbleTableViewCell.xib in Resources */,
+				FAC49AB02B5422C000462250 /* Assets.xcassets in Resources */,
+				FAC49AAE2B5422BF00462250 /* Main.storyboard in Resources */,
+				FAC49ADD2B543BBA00462250 /* MyChatBubbleTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAC49A9F2B5422BF00462250 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC49AEB2B544BBF00462250 /* ConfigurableChatCell.swift in Sources */,
+				FAC49AA72B5422BF00462250 /* AppDelegate.swift in Sources */,
+				FAC49AD32B54253600462250 /* ChatListTableViewCell.swift in Sources */,
+				FAC49AE02B543BCC00462250 /* OthersChatBubbleTableViewCell.swift in Sources */,
+				FAC49AD72B542D8100462250 /* UITableViewHandler.swift in Sources */,
+				FAC49AC42B5424E700462250 /* ChattingData.swift in Sources */,
+				FAC49ADC2B543BBA00462250 /* MyChatBubbleTableViewCell.swift in Sources */,
+				FAC49ABF2B54237F00462250 /* ChatListViewController.swift in Sources */,
+				FAC49AE92B5448BB00462250 /* Util.swift in Sources */,
+				FAC49AA92B5422BF00462250 /* SceneDelegate.swift in Sources */,
+				FAC49AE32B543C5C00462250 /* ChatRoomViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAC49AAC2B5422BF00462250 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAC49AAD2B5422BF00462250 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAC49AB12B5422C000462250 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAC49AB22B5422C000462250 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAC49AB52B5422C000462250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAC49AB62B5422C000462250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAC49AB82B5422C000462250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JJS82CC46U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SeSAC4TravelTalk/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.misung.SeSAC4TravelTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FAC49AB92B5422C000462250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JJS82CC46U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SeSAC4TravelTalk/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.misung.SeSAC4TravelTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAC49A9E2B5422BF00462250 /* Build configuration list for PBXProject "SeSAC4TravelTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC49AB52B5422C000462250 /* Debug */,
+				FAC49AB62B5422C000462250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC49AB72B5422C000462250 /* Build configuration list for PBXNativeTarget "SeSAC4TravelTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC49AB82B5422C000462250 /* Debug */,
+				FAC49AB92B5422C000462250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FAC49AEC2B54647300462250 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FAC49AED2B54647300462250 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAC49AEC2B54647300462250 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FAC49A9B2B5422BF00462250 /* Project object */;
+}
